@@ -1,0 +1,27 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Local database and runtime logs (machine-specific telemetry)
+backend/metrics.db
+backend/metrics.db-shm
+backend/metrics.db-wal
+backend/platform.log
+backend/demo_temp/
+
+# Environment
+.env
+.env.local
+
+# Node / frontend
+frontend-react/node_modules/
+frontend-react/dist/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
